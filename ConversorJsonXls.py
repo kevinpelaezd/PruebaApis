@@ -16,9 +16,9 @@ urlStock = str1+Token+str2
 informacion = requests.get(urlStock)
 
 if informacion.status_code == 200:
-    print("Ahora siii pa!!")
+    print("Ingreso Correcto a la API")
 else:
-    print("No entro!")
+    print("No pudo ingresar a la API!")
     
     
 #ESTA ES LA CLAVEEEE. Convertir la respuesta de la api en Json. para poder recorrerlo. 
