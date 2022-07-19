@@ -29,6 +29,3 @@ for i in data:
         print(i['DEPOSITO'])
         print("CANTIDAD: ", i['CANTIDAD1'])
 
-#Generamos un csv de esta consulta       
-df = json_normalize(data)
-df.to_csv('ComposicionFavaloroV1.csv')

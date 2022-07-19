@@ -24,6 +24,8 @@ else:
 
 df = json_normalize(Consulta.json())
 
-df.to_excel('C:/Users/KPelaez.OMNI/Desktop/ComposicionClientes.xlsx')
+#df.to_excel('C:/Users/KPelaez.OMNI/Desktop/ComposicionClientes.xlsx')
 
-    
+#Generamos un csv de esta consulta       
+
+df.to_csv('ComposicionFavaloroV1.csv')    
