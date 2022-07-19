@@ -26,4 +26,5 @@ else:
 
 #ESTAS DOS LINEAS SON LAS QUE GENERAN UN EXCEL. 
 df = json_normalize(informacion.json())
-df.to_excel('Archivo1.xlsx')
+#df.to_excel('Archivo1.xlsx')
+df.to_csv('Prueba1.csv')
