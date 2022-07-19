@@ -2,6 +2,7 @@ import requests
 import json
 from ValideToken import *
 import pandas as pd
+from pandas import json_normalize 
 
 Token = GeneradorToken('a843eb5642cbc99fed7af5d62fc1c764','176acd327ffd43fd858680d4a7efc475')
 
@@ -28,4 +29,6 @@ for i in data:
         print(i['DEPOSITO'])
         print("CANTIDAD: ", i['CANTIDAD1'])
 
-        
+#Generamos un csv de esta consulta       
+df = json_normalize(data)
+df.to_csv('ComposicionFavaloroV1.csv')
