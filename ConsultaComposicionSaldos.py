@@ -28,4 +28,4 @@ df = json_normalize(Consulta.json())
 
 #Generamos un csv de esta consulta       
 
-df.to_csv('ComposicionFavaloroV1.csv')    
+df.to_csv('G:\Mi unidad\Python\ComposicionFavaloroV1.csv')    
