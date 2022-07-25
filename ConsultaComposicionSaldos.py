@@ -8,7 +8,7 @@ Token = GeneradorToken('a843eb5642cbc99fed7af5d62fc1c764','176acd327ffd43fd85868
 
 
 primera = 'https://api.teamplace.finneg.com/api/reports/COMPOSICIONSALDOSCLIENTES?ACCESS_TOKEN='
-segunda = '&PARAMWEBREPORT_fecha=2022-07-19&PARAMWEBREPORT_organizacion=35&PARAMWEBREPORT_circuitocontable=&PARAMWEBREPORT_cuenta=&PARAMWEBREPORT_moneda=&PARAMWEBREPORT_Empresa='
+segunda = '&PARAMWEBREPORT_fecha=2022-07-25&PARAMWEBREPORT_organizacion=&PARAMWEBREPORT_circuitocontable=&PARAMWEBREPORT_cuenta=&PARAMWEBREPORT_moneda=&PARAMWEBREPORT_Empresa='
 
 urlComp = primera+Token+segunda
 
